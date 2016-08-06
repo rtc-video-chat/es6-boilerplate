@@ -1,0 +1,25 @@
+{
+  "name": "web-rtc-es6-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtc-video-chat/es6-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtc-video-chat/es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rtc-video-chat/es6-boilerplate#readme",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0",
+    "socket.io": "^1.4.8"
+  }
+}
